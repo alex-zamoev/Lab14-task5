@@ -47,7 +47,7 @@ int floor(string str){
         multiplier *= 10;
     }
 
-    if (str[0] == '-') floor *= -1;
+    if (str[0] == '-') floor = -floor;
 
     return floor;
 }
