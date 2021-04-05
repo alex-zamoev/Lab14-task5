@@ -21,8 +21,8 @@ bool check_number(string str){
     }
 
     if(countDot > 1) inRange = false;
-
-    (inRange && findDigits) ? check = true : check = false;
+    check = (inRange && findDigits);
+ //   (inRange && findDigits) ? check = true : check = false;
     return check;
 
 }
